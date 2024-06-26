@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        Hotel Reservation
+    </h1>
+    <fieldset id="Personal">
+        <legend>Personal Details</legend>
+        <form>
+            <div class = "align">
+                <label for="fname"> First Name:</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter your First name"><br>
+            </div>
+
+            <div class = "align">
+                <label for = "surname">Surname:</label>
+                <input type="text" name = "surname" id = "surname" placeholder = "Enter your Surname"><br>
+            </div>
+
+            <div class = "align">
+                <label for = "mail">Email address:</label>
+                <input type="email" name="mail" id="mail"><br>
+            </div>
+
+            <div class = "align">
+                <label for = "pass">Setup a password: </label>
+                <input type="password" name = "pass" id="pass" placeholder="Min 8 characters,use at least 1 caps, no special characters"><br>
+            </div>
+
+        </form>
+    </fieldset>
+    <br>
+
+    <fieldset id="Booking">
+        <legend>Booking Details</legend>
+        <form>
+            <div class = "align">
+                <label for="date">Check-In day: </label>
+                <input type="date" name="date" id="date"><br>
+            </div>
+
+            <div class = "align">
+                <label for = "days">Number of days: </label>
+                <input type ="number" name = "days" id="days"><br>
+            </div>
+
+            <div class = "align">
+                <input type="radio" name="type" id = "sin_type" value="s">
+                <label for="sin_type" >Single Room</label><br>
+            </div>
+
+            <div class = "align">
+                <input type="radio" name="type" id="doub_type" value="d">
+                <label for ="doub_type">Double Room</label><br>
+            </div>
+
+            <div class = "align">
+                <input type="radio" name ="type"id = "king_type" value = "k">
+                <label for = "king_type">King Room</label><br>
+            </div>
+            
+            <div class = "align">
+                <label for = "breakfast">Breakfast:</label>
+                <select name="breakfast" id = "breakfast">
+                    <option value="include">Include</option>
+                    <option value="exclude">Exclude</option>
+                </select>
+                <br>
+            </div>
+            
+            <div class = "align">
+                <label for = "req">Special requirements:</label>
+                <textarea name="req" id="name" rows="5" cols="20">Please provide any special requirements</textarea>  
+            </div>
+
+        </form>
+    </fieldset>
+    <br>
+
+    <fieldset id="Options">
+        <form>
+            <input type="submit" class="buttons"  value=" Send " name="send">
+            <input type="reset" class="buttons" value=" Reset " name ="reset">
+        </form>
+    </fieldset>
+
+    <hr>
+    <address>Email : daneeshahansaka9@gmail.com</address>
+    <p><b> Last Modified Date : 20<sup>th</sup> of June 2024</b></p>
+    
+</body>
+</html>

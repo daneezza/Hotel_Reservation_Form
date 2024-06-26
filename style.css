@@ -1,0 +1,62 @@
+#pass{
+    width: 400px;
+}
+#Personal{
+    padding:20px;
+    background-color:#59a5a8;
+    border-radius: 8px;
+}
+#Booking{
+    padding:20px;
+    background-color: bisque;
+    border-radius: 8px;
+}
+#Options{
+    padding:15px;
+    background-color:chocolate;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    border-radius: 8px;
+}
+
+legend{
+    font-weight: bold;
+    background-color: rgb(217, 236, 252);
+    border-radius: 4px;
+}
+
+.align{
+    display: flex; 
+}
+
+.align label{
+    width: 150px;
+}
+
+.align input[type="password"]{
+    width: 400px;
+}
+
+.align input{
+    margin-bottom: 5px;
+}
+
+.align textarea{
+    margin-top: 5px;
+}
+
+.align input[type="radio"]{
+    margin-bottom: 20px;
+}
+
+#Options .buttons {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #007BFF;
+    color: rgb(225, 218, 218);
+    border-color: rgb(250, 250, 250);
+    border-radius: 8px;
+    border-width: 3px;
+}
