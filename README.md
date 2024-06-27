@@ -1,2 +1,2 @@
 # daneezza-firstform
-A form that created with HTML &amp; CSS
+A Hotel Reservation Form that created with HTML & CSS
